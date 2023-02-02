@@ -1,26 +1,14 @@
 # Sentiment Analysis Bot
-This is a simple sentiment analysis bot that takes a string input and outputs whether the string is positive, negative, or neutral. The sentiment analysis is done using the TextBlob library in Python.
+This is a Python sentiment analysis bot that takes a string input and outputs whether the string is positive, negative, or neutral. The bot uses the TextBlob library for sentiment analysis. It was mostly generated using ChatGPT.
 
-## Prerequisites
-Before you run the script, make sure that you have the following installed:
-
-- Python 3.x
-- TextBlob library (can be installed using 'pip install textblob')
-
-## How to Run the Script
+## How to Run the Bot
 To run the script, follow these steps:
 
-1. Open your terminal or command prompt.
-2. Navigate to the directory where the script is saved.
-3. Type python SentimentAnalysis.py and press enter.
-4. The script will prompt you to enter a sentence. Type in your sentence and press enter.
-5. The sentiment analysis result will be displayed as either "positive", "neutral", or "negative".
+1. Clone the repository or download the file sentiment_analysis_bot.py
+2. Install the TextBlob library by running pip install textblob in your terminal or command prompt.
+3. Run the file by typing python sentiment_analysis_bot.py in your terminal or command prompt.
+4. Enter a sentence when prompted and the bot will output the sentiment of the sentence.
+5. Repeat the process until you decide to quit by entering **`'q'`**.
 
 ## Code Explanation
-The code imports the TextBlob library and defines a function named **'sentiment_analysis'** that takes a string input and returns the sentiment as "positive", "neutral", or "negative".
-
-The TextBlob library is used to analyze the sentiment of the input text. The sentiment property of the TextBlob object returns a tuple of two values: polarity and subjectivity. The polarity value ranges between -1 to 1, where -1 represents negative sentiment, 0 represents neutral sentiment, and 1 represents positive sentiment.
-
-An if-else loop is used to check the polarity value and return the sentiment as "positive", "neutral", or "negative".
-
-Finally, the script takes user input and calls the **'sentiment_analysis'** function to display the sentiment analysis result.
+The code takes the input as a string and analyzes the sentiment using TextBlob. The TextBlob library has a sentiment property that returns a tuple of two values, polarity, and subjectivity. The polarity value ranges between -1 to 1, where -1 represents negative sentiment, 0 represents neutral sentiment, and 1 represents positive sentiment. The code uses an if-else loop to check the polarity value and return the sentiment as positive, negative, or neutral.
