@@ -1,15 +1,15 @@
-#Sentiment Analysis Bot
+# Sentiment Analysis Bot
 This is a simple sentiment analysis bot that takes a string input and outputs whether the string is positive, negative, or neutral. The sentiment analysis is done using the TextBlob library in Python.
 
-##Prerequisites
+## Prerequisites
 Before you run the script, make sure that you have the following installed:
 
-##Python 3.x
+## Python 3.x
 TextBlob library (can be installed using pip install textblob)
 How to Run the Script
 To run the script, follow these steps:
 
-##Open your terminal or command prompt.
+## Open your terminal or command prompt.
 Navigate to the directory where the script is saved.
 Type python SentimentAnalysis.py and press enter.
 The script will prompt you to enter a sentence. Type in your sentence and press enter.
